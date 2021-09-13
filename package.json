@@ -1,0 +1,37 @@
+{
+	"name": "bbcode-parser-template-demo",
+	"description": "Demo for bbcode-parser-template",
+	"scripts": {
+		"start": "rollup --config rollup.config.dev.js --watch",
+		"build": "rollup --config rollup.config.prod.js"
+	},
+	"devDependencies": {
+		"@rollup/plugin-alias": "^3.1.2",
+		"@rollup/plugin-node-resolve": "^13.0.0",
+		"eslint": "^7.14.0",
+		"postcss-import": "^14.0.2",
+		"rollup": "^2.50.4",
+		"rollup-plugin-copy-watch": "^0.0.1",
+		"rollup-plugin-delete": "^2.0.0",
+		"rollup-plugin-livereload": "^2.0.0",
+		"rollup-plugin-postcss": "^4.0.0",
+		"rollup-plugin-root-import": "^1.0.0",
+		"rollup-plugin-serve": "^1.1.0",
+		"rollup-plugin-terser": "^7.0.2"
+	},
+	"dependencies": {
+		"@thoughtsunificator/bbcode-parser-template": "^1.0.3",
+		"@thoughtsunificator/bbcode-parser-template-example": "^0.0.2",
+		"css-generics": "^1.0.0",
+		"domodel": "^1.0.6"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thoughtsunificator/bbcode-parser-template-demo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/bbcode-parser-template-demo/issues"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT"
+}
