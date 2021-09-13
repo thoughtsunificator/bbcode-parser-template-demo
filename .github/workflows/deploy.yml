@@ -21,5 +21,5 @@ jobs:
         env:
           REPO: self
           BRANCH: gh-pages # The branch name where you want to push the assets
-          FOLDER: dist/prod # The directory where your assets are generated
+          FOLDER: dist/prod/public # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
